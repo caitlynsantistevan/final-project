@@ -1,0 +1,339 @@
+/* final portfolio */
+#title {
+    background-color: #598392;
+
+}
+.container-fluid {
+    padding: 3% 15%
+}
+
+h1{
+    font-family: "Silkscreen" , sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white;
+}
+
+h3 {
+    font-family: 'Silkscreen';
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+p {
+    font-family: 'Neuton';
+    color: #8f8f8f ;
+    font-size: 1.5rem;
+}
+h2 {
+    font-family: 'Silkscreen';
+    font-size: 2.0rem;
+    font-weight: bold;
+    color: white;
+}
+
+/* nav bar */
+.navbar {
+    padding: 0 0 4.5rem;
+}
+.navbar-name {
+    font-family: "Neuton";
+    font-size: 2.0rem;
+    font-weight: bold;
+    color: white;
+}
+
+.navbar-item {
+    padding: 0 18px;
+    font-family: 'Neuton' , sans-serif;
+    color: white;
+}
+
+.nav-link {
+    font-family: 'Neuton' , sans-serif;
+    font-size: 1.5rem;
+    color: white;
+}
+
+
+/* button directory */
+.directory-buttonOne {
+    margin: 5% 3% 5% 0;
+    font-family: neuton;
+    color: white;
+}
+.directory-buttonTwo {
+    margin: 5% 3% 5% 0;
+    font-family: neuton;
+    color: black;
+}
+.feature-box {
+    text-align: center;
+}
+
+/* title image */
+.title-image {
+    width: 60%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 35px;
+}
+
+.about-p {
+    color: white;
+    font-family: 'neuton' , sans-serif;
+    font-size: small;
+}
+
+.about-h {
+    color: white
+}
+
+.about-a {
+    font-family: 'neuton';
+    color: #fbc3bc;
+}
+
+/* experience */
+#experience {
+    padding: 7% 15%;
+    background-color: #598392;
+    z-index: 1;
+    position: relative;
+}
+
+#about {
+    padding: 7% 15%;
+    background-color: white;
+}
+
+.work {
+    padding-top: 20px;
+}
+
+.rowTwo {
+    padding-top: 50px;
+}
+
+.about-me {
+    color: black;
+}
+
+li {
+    font-family: 'neuton';
+    font-size: small;
+    color: white;
+}
+
+.other {
+    font-family: 'silkscreen' , sans-serif;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+.about-b {
+    font-family: black;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.rowThree {
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+.workB {
+    color: black;
+    text-align: center;
+    font-family: 'silkscreen';
+}
+
+.other-a {
+    font-family: 'neuton' , sans-serif;
+    color: #fbc3bc;
+    font-size: medium;
+    text-align: center; /*not sure abt this*/
+}
+
+.icon {
+    color: #fbc3bc;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #fbc3bc;
+}
+
+/* Testimonial */
+#testimonials {
+    text-align: center;
+    background-color: #fbc3bc;
+}
+
+/* work */
+#work {
+    background-color: white;
+}
+
+.works-box {
+    font-family: 'silkscreen';
+    color: black;
+}
+ .h2work {
+    font-family: 'silkscreen';
+    color: black;
+    text-align: center;
+ }
+
+/* resume image */
+/* resume header */
+.img-header {
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+#resume {
+    background-color: #598392;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 40px ;
+}
+
+.resume-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-bottom: 10%;
+}
+
+.bs-framework {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rowC {
+    padding-bottom: 50px;
+}
+
+.dice {
+    width: 50%;
+}
+
+.figma {
+    width: 50%;
+    height: 50%;
+}
+
+/* Pricing Section */
+#contact {
+    padding-bottom: 100 px;
+    text-align: center;
+}
+
+.contact-box {
+    padding-bottom: 50px;
+}
+
+.contact-header {
+    color:black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    font-family: 'neuton' , sans-serif;
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: white;
+    font-family: 'Neuton';
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #fbc3bc;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #598392;
+    padding: 20px;
+    padding-bottom: 50px;
+  }
+
+  label[for=fname] {
+    font-family: 'neuton';
+  }
+
+  label[for=lname]{
+    font-family: 'neuton';
+  }
+
+  label[for=country]{
+    font-family: 'neuton';
+  }
+
+  label[for=subject] {
+    font-family: 'neuton';
+  }
+
+/* Call to Action */
+#cta {
+    background-color: #598392;
+    color: white;
+    padding: 7% 15%;
+    text-align: center;
+}
+.cta-heading {
+    font-family: Silkscreen;
+    font-weight: bold;
+    font-size: 3.0rem;
+    line-height: 1.5;
+}
+
+/* Footer */
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+    font-family: neuton;
+    background-color: #598392;
+}
+
+.foot {
+    color: white;
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+/* media query */
+@media (max-width: 1028px){
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
