@@ -1,1 +1,1 @@
-Caitlyn Santistevan | COOGS 2 Final Project
+Caitlyn Santistevan | COGS 3 Final Project
